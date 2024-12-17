@@ -51,7 +51,7 @@
 
         <auto.common.version>1.1</auto.common.version>
         <auto.service.version>1.0</auto.service.version>
-        <gwt.version>2.10.0</gwt.version>
+        <gwt.version>2.12.1</gwt.version>
         <javapoet.version>1.13.0</javapoet.version>
         <compile.testing.version>0.21.0</compile.testing.version>
         <junit.version>4.13.2</junit.version>
@@ -92,13 +92,13 @@
 
         <!-- only for testing -->
         <dependency>
-            <groupId>com.google.gwt</groupId>
+            <groupId>org.gwtproject</groupId>
             <artifactId>gwt-user</artifactId>
             <version>${gwt.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.google.gwt</groupId>
+            <groupId>org.gwtproject</groupId>
             <artifactId>gwt-dev</artifactId>
             <version>${gwt.version}</version>
             <scope>test</scope>
