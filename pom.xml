@@ -160,7 +160,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven.compiler.plugin}</version>
                     <configuration>
-                       <release>11</release>
+                       <release>${maven.compiler.target}</release>
                     </configuration>
                 </plugin>
             </plugins>
